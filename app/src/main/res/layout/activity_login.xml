@@ -64,7 +64,7 @@
             android:id="@+id/loginButtonId"
             android:layout_width="fill_parent"
             android:layout_height="50sp"
-            android:background="#00b5ff"
+            android:background="#00c5ff"
             android:fontFamily="segoe UI"
             android:gravity="center"
             android:onClick="btnLogin"
