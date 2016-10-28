@@ -96,11 +96,9 @@
         android:gravity="left"
 
         android:onClick="clickRegister"
-        android:paddingTop="10dp"
-        android:layout_gravity="left"
-        android:paddingLeft="30dp"
-
-        />
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView10" />
 
 
 </LinearLayout>
