@@ -1,5 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/loginPage"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginPage"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/bg1"
@@ -29,6 +31,11 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         >
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/ic_mail_grey600_24dp"
+            >
         <EditText
             android:id="@+id/uIDBox"
             android:layout_width="fill_parent"
@@ -43,7 +50,12 @@
             android:textColor="#222222"
             android:textColorHint="#999999"
             />
-
+        </com.github.florent37.materialtextfield.MaterialTextField>
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/ic_mail_grey600_24dp"
+            >
         <EditText
             android:id="@+id/passBox"
             android:layout_marginTop="15dp"
@@ -58,7 +70,7 @@
             android:textColor="#222222"
             android:textColorHint="#999999"
             />
-
+</com.github.florent37.materialtextfield.MaterialTextField>
         <Button
             android:layout_marginTop="65dp"
             android:id="@+id/loginButtonId"

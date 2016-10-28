@@ -42,7 +42,7 @@ public class IntroActivity extends AppCompatActivity {
 
         //video start
 
-        path="android.resource://" + getPackageName() + "/" + R.raw.ff;
+        path="android.resource://" + getPackageName() + "/" ; //R.raw.ff;
         mVideoView = (VideoView) findViewById(R.id.video);
 
 
